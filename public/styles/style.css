@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+:root {
+    --background-color: #F9F9FB;
+    --background-header: #9EC2D0;
+    --color-text: #FFF;
+    --font: 'Roboto Condensed';
+}
+
+body {
+    background-color: var(--background-color) ;
+    height: 100vh;
+    width: 100vw;
+    font-family: var(--font);
+}
+
+.l-header {
+    background-color: var(--background-header);
+    color: var(--color-text);
+    
+    text-align: center;
+    padding: 2em;
+    font-weight: 700;
+
+    border-bottom: 2px solid var(--background-color);
+}
+
+
+
+.l-main {
+
+
+}
+
+.l-main__container-formCEP  {
+ margin-top: 2%;
+}
+
+.l-main__container-formCEP > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.l-main__container-formCEP > div > input {
+    width: 20%;
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 4px;
+
+    font-size: 1em;
+    font-weight: 1em;
+    text-align: center;
+}
+
+.l-main__container-infoCEP {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.l-main__container-infoCEP > h2 {
+    margin-bottom: 20px;
+    
+}
+
+.l-main__container-infoCEP > form {
+    width: 50%;
+    display: flex;
+    padding-left: 6%;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.l-main__container-infoCEP_card {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.l-main__container-infoCEP_card > input {
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+
+    border: 1px solid black;
+    border-radius: 4px;
+
+    color: rgb(104, 104, 104);
+}

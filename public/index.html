@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Consulta CEP e clima</title>
+</head>
+<body>
+    <header class="l-header">
+        <h1 class="l-header__titulo">CONSULTAR MEU CEP</h1>
+    </header>
+    <main class="l-main">
+        <section class="l-main__container"> 
+
+            <div class="l-main__container-formCEP">
+
+                <div>
+                    <label for="cep">Por gentileza, informe seu cep</label>
+                    <input name="cep" class="inputCEP" type="text" maxlength="8"   minlength="8"  placeholder="EX: 69093552">
+
+                </div>
+                
+
+            </div>
+
+            <div class="l-main__container-infoCEP">
+
+                <H2>Informações sobre a Região</H2>
+                <form action="">
+                    <div class="l-main__container-infoCEP_card" >
+                        <label for="">Cidade</label>
+                        <input id="Cidade" type="text" placeholder="..." disabled="true">
+                    </div>
+
+                    <div class="l-main__container-infoCEP_card">
+                        <label for="">UF</label>
+                        <input id="UF" type="text" placeholder="..." disabled="true">
+                    </div>
+                    <div class="l-main__container-infoCEP_card">
+                        <label for="">Bairro</label>
+                        <input id="Bairro" type="text" placeholder="..." disabled="true">
+                    </div>
+
+                    <div class="l-main__container-infoCEP_card">
+                        <label for="">Logradouro</label>
+                        <input id="Logradouro" type="text" placeholder="..." disabled="true">
+                    </div>
+
+                    <div class="l-main__container-infoCEP_card">
+                        <label for="">CEP</label>
+                        <input id="CEP" type="text" placeholder="..." disabled="true">
+                    </div>
+
+                    <div class="l-main__container-infoCEP_card">
+                        <label for="">IBGE</label>
+                        <input id="IBGE" type="text" placeholder="..." disabled="true">
+                    </div>
+
+
+                </form>
+            </div>
+
+            <div class="l-main__container-infoCEP">
+
+                <H2>Informações sobre o clima</H2>
+                <form action="">
+                    <div class="l-main__container-infoCEP_card" >
+                        <label for="">Cidade</label>
+                        <input id="Location" type="text" placeholder="..." disabled="true">
+                    </div>
+                    <div class="l-main__container-infoCEP_card">
+                        <label for="">Estado</label>
+                        <input id="Region" type="text" placeholder="..." disabled="true">
+                    </div>
+                    <div class="l-main__container-infoCEP_card">
+                        <label for="">País</label>
+                        <input id="Country" type="text" placeholder="..." disabled="true">
+                    </div>
+                    <div class="l-main__container-infoCEP_card">
+                        <label for="">Time Zone</label>
+                        <input id="TZ" type="text" placeholder="..." disabled="true">
+                    </div>
+
+                    <div class="l-main__container-infoCEP_card">
+                        <label for="">Data e Hora</label>
+                        <input id="LocalTime" type="text" placeholder="..." disabled="true">
+                    </div>
+
+                    <div class="l-main__container-infoCEP_card">
+                        <label for="">Temperatura C°</label>
+                        <input id="Temp_c" type="text" placeholder="..." disabled="true">
+                    </div>
+
+
+                    <div class="l-main__container-infoCEP_card">
+                        <label for="">Temperatura F°</label>
+                        <input id="Temp_f" type="text" placeholder="..." disabled="true">
+                    </div>
+
+                    <div class="l-main__container-infoCEP_card">
+                        <label for="">Clima</label>
+                        <input id="Condition" type="text" placeholder="..." disabled="true">
+                    </div>
+
+                </form>
+            </div>
+
+
+
+        </section>
+
+    </main>
+
+    <script type="module" src="../src/main.js"></script>
+</body>
+</html>
