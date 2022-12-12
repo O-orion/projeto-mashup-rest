@@ -1,0 +1,24 @@
+{
+  "name": "projeto-mashup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-orion/projeto-mashup-rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-orion/projeto-mashup-rest/issues"
+  },
+  "homepage": "https://github.com/O-orion/projeto-mashup-rest#readme",
+  "dependencies": {
+    "easy-soap-request": "^5.2.0",
+    "soap": "^0.45.0"
+  }
+}
